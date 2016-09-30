@@ -1,0 +1,68 @@
+{
+  "name": "lutak-tomcat",
+  "version": "1.0.0",
+  "author": "Lutak Srce",
+  "summary": "Installs and configures Tomcat applet engine server.".
+  "license": "Apache Version 2.0",
+  "source": "https://github.com/lutak-srce/tomcat",
+  "project_page": "https://github.com/lutak-srce/tomcat",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "description": "Manages Tomcat for Debian, Ubuntu, CentOS, RHEL, OEL.",
+  "dependencies": [
+    {"name":"lutak/java","version_requirement":">= 1.0.0 < 5.0.0"}
+  ]
+}
