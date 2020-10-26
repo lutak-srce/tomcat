@@ -2,7 +2,7 @@
   "name": "lutak-tomcat",
   "version": "1.0.0",
   "author": "Lutak Srce",
-  "summary": "Installs and configures Tomcat applet engine server.".
+  "summary": "Installs and configures Tomcat applet engine server.",
   "license": "Apache Version 2.0",
   "source": "https://github.com/lutak-srce/tomcat",
   "project_page": "https://github.com/lutak-srce/tomcat",
